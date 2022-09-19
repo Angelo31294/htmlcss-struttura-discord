@@ -4,7 +4,42 @@ body{
     margin: 0px;
     padding: 0px;
 }
+/* --- DEBUG --- */
+.debug header{
+    background-color: #add8e6;
+}
+.debug .header-top{
+    background-color: #daa520;
+    height: 40px;
+}
+.header-bottom{
+    background-color: #00008b;
+    padding: 50px 0px;
+}
+
 /* --- COMMON --- */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* --- HEADER --- */
+
+header{
+    padding: 15px 0px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#box-pink{
+    display: flex;
+    background-color: #ee82ee;
+    max-width: 900px;
+    height: 400px;
+    margin: auto;
+}
 /* --- MAIN --- */
+
 /* --- FOOTER --- */
