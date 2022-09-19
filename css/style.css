@@ -4,6 +4,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
 /* --- DEBUG --- */
 .debug header{
     background-color: #add8e6;
@@ -16,7 +17,19 @@ body{
     background-color: #00008b;
     padding: 50px 0px;
 }
-
+.debug .row{
+    height: 400px;
+}
+.col-big{
+    background-color: #1e90ff;
+}
+.col-small{
+    background-color: #ffc0cb;
+}
+.debug .row-green{
+    background-color: #228b22;
+    height: 1000px;
+}
 /* --- COMMON --- */
 .container{
     max-width: 1200px;
@@ -34,12 +47,29 @@ header{
     align-items: center;
 }
 #box-pink{
-    display: flex;
     background-color: #ee82ee;
     max-width: 900px;
     height: 400px;
     margin: auto;
 }
 /* --- MAIN --- */
+section{
+    padding: 40px 0px;
+}
+section:nth-child(2n){
+    background-color: #d3d3d3;
+}
+.row{
+    display: flex;
+}
+
+.col-big{
+    width: 60%;
+}
+
+.col-small{
+    width: 40%;
+}
+
 
 /* --- FOOTER --- */
