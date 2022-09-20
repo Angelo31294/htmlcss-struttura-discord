@@ -148,10 +148,6 @@ section:nth-child(2n){
 .footer-top .col-small{
     width: 30%;
 }
-.aqua{
-    display: flex;
-    width: 70%;
-}
 .footer-top .col-big .col{
     width: 25%;
 }
